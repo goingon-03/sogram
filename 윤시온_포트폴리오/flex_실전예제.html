@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>SO 쇼핑몰</title>
+<meta name="viewport" content="width=device-width, inital-scale=1.0">
+<style>
+* {
+  margin: 0;
+	padding: 0;
+}
+li {	list-style-type: none;  }
+header {
+	text-align: center;
+	padding: 25px 0;
+	color: white;
+	background-color: #424242;
+	margin-bottom: 30px;
+}
+header span {  color: yellow;  }
+.row {
+	width: 98%;
+	margin: 0 auto;
+	display: flex;
+/*	border: solid 1px red; */
+}
+.row img {	max-width: 100%;  }
+.row ul {
+	width: 100%;
+	padding-left: 20px;
+	padding-bottom: 20px;
+}
+.row ul:last-child  { 	padding-right: 20px;  }
+.row li { 	margin-bottom: 5px;  }
+.row li:nth-child(2) {	font-weight: bold;  }
+.row li:nth-child(3) {	color: red;  }
+.row li:last-child {
+	text-align: right;
+	margin-right: 10px;
+	font-size: 0.9em;
+}
+@media only screen and (max-width: 768px) {
+  /* 스마트 폰 */
+	.row {	flex-wrap: wrap;	}
+	.row ul { 	margin-right: 20px; 	}
+}
+</style>
+</head>
+<body>
+	<header>
+		<h3><span>SO</span> 쇼핑몰</h3>
+	</header>
+	<div class="row">
+  		<ul>
+  			<li><img src="./img/코렐 코디 최고심 머그.jpg"></li>
+  			<li>코렐 코디네이츠 최고심 머그 2p </li>
+  			<li>19,900원</li>
+  			<li>60개 구매중</li>
+  		</ul>
+  		<ul>
+  			<li><img src="./img/최고심앞접시.jpg"></li>
+  			<li>코렐 최고심 앞접시 1p </li>
+  			<li>9,900원</li>
+  			<li>60개 구매중</li>
+  		</ul>
+  		<ul>
+  			<li><img src="./img/코렐 최고심 원형대접시.jpg"></li>
+  			<li>코렐 최고심 원형대접시 1p </li>
+  			<li>17,900원</li>
+  			<li>60개 구매중</li>
+  		</ul>
+  		<ul>
+  			<li><img src="./img/코렐최고심한국형2인9p_즐거운인생.jpg"></li>
+  			<li>코렐 최고심 한국형 2인 9p 즐거운 인생 </li>
+  			<li>101,790원</li>
+  			<li>60개 구매중</li>
+  		</ul> 	
+  	</div>
+  	<div class="row">  		
+  		<ul>
+  			<li><img src="./img/최고심춘식이마우스패드.jpg"></li>
+  			<li>최고심 춘식이 마우스패드 </li>
+  			<li>5,000원</li>
+  			<li>60개 구매중</li>
+  		</ul>
+  		<ul>
+  			<li><img src="./img/코렐 최고심 삼절접시소.jpg"></li>
+  			<li>코렐 최고심 삼절접시소 </li>
+  			<li>18,000원</li>
+  			<li>60개 구매중</li>
+  		</ul>
+  		<ul>
+  			<li><img src="./img/최고심컵_나의성공시대.jpg"></li>
+  			<li>최고심 컵 나의성공시대 </li>
+  			<li>18,000원</li>
+  			<li>60개 구매중</li>
+  		</ul>
+  		<ul>
+  			<li><img src="./img/최고심컵_할수있따.jpg"></li>
+  			<li>최고심 컵 할수있따</li>
+  			<li>9,900원</li>
+  			<li>60개 구매중</li>
+  		</ul>				  		
+	</div>
+</body>
+</html>

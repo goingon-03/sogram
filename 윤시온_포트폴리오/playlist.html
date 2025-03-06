@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>PLAYLIST</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="./css/style01.css">
+<style>
+* {  
+	box-sizing:border-box ;
+	list-style-type: none;
+	background-color: rgb(249, 241, 229);
+}
+
+header {
+	padding: 20px;
+	border-bottom: solid 1px black;
+}
+
+h2{
+	font-size:2rem;
+	text-align: center;
+}
+
+#flex{
+	display: flex;
+	align-items:stretch;
+
+}
+img {
+	max-width:100% ;
+}
+nav {
+	width:20%;
+	float: right;
+	padding: 53px;
+	
+}
+nav li {
+	padding-top: 10px;
+	margin-left:10px;
+	font-size:1.5rem;
+	cursor: pointer;
+}
+
+a:link { color:red; }
+a:visited { color:green;}
+a{
+	text-decoration: none;
+}
+
+section {
+	width: 80%;
+	float:left;
+	padding: 20px;}
+
+h3{
+	font-size:6vh;
+
+}
+
+#img{
+	text-align: center;
+}
+
+@media only screen and (max-width: 768px) 
+
+{
+  /* 스마트 폰 */
+  	nav {  width: 100%;  }
+  	section {  width: 100%;  }
+}
+</style>
+</head>
+<body>
+	<header>
+		<h2>겨울노래 플레이리스트</h2>
+	</header>
+	<nav>
+		<ul>
+		<li><a href="https://youtu.be/HlI01mB3Nx8?si=BZTk_AfMF_IQKbjt" target="_blank">루시-난로</a></li>
+		<li><a href="https://youtu.be/DRGourS7Jkw?si=swRK2wOhh1SGANlt" target="_blank">Olivia Rodrigo-teenage dream</a></li>
+		<li><a href="https://youtu.be/H_lxXH1xcok?si=tL3PN-kpB6xRPLCH" target="_blank">Ariana Grande-Winter things</a></li>
+		<li><a href="./index.html" target="_blank">sogram</a></li>
+		</ul>
+	</nav>
+	<section>
+		<div id="img">
+		<h3 style="padding: 20px;">추운 겨울을 행복하게 보낼 수 있는 노래!</h3>
+			<img src="./img/겨울.jpg">
+		</div>
+	</section>
+</body>
+</html>

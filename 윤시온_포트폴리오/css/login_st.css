@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Dodum&display=swap');
+
+
+* {
+	margin: 0;
+	padding: 0;
+	font-family: 'Gowun Dodum', sans-serif;
+}
+
+body {
+	background:;
+	padding:;	
+}
+
+
+#signup {
+	background-color:rgba(0, 128, 0, 0.105);
+	border:solid 1px black;
+	width: 100vh;	
+	margin:50px 20px 50px 480px;
+  text-align: center;
+  
+}
+		
+#signup fieldset {
+	border: 1px solid #ccc;
+	margin-bottom: 30px;
+}
+
+ li {
+	   margin:20px;  
+           }
+		
+#signup legend {
+	font-size:3vh;
+	font: weight 3px; 
+	padding-left:x;
+	
+}
+			
+#signup ul li {
+	line-height: ;
+	list-style:none ;
+	padding: ;
+	margin-bottom: ;
+}
+			
+#signup button {	
+	border: ;
+	border-radius: 80px;
+	display: block;
+	font-size: ;
+	letter-spacing: 1px;
+	margin: auto;
+	padding: 7px 25px;
+}
+
+#signup label {
+	float: ;  /* 왼쪽으로 배치 */
+	font-size: ;  /* 글자 크기  */
+	width: ;  /* 너비 */
+}
+
+#signup input[type=text], #signup input[type=password], #signup input[type=tel], #signup input[type=email] {  /* 속성 선택자 사용 */
+	border: ;  /* 텍스트 필드 테두리 지정 */
+	border-radius: ;  /* 텍스트 필드 모서리를 둥글게 지정 */
+	font-size: ;  /* 텍스트 필드 안의 글자 크기 지정 */
+	padding: ;  /* 텍스트 필드와 내용 사이의 패딩 지정 */
+	width: ;  /* 텍스트 필드 너비 지정 */
+}					
+
+#signup input[required] {  /* 필수 입력 필드의 스타일 */
+	border:;  
+}
+
+#signup input[readonly] {  /* 읽기 전용 필드의 스타일 */
+	border:none;
+}
